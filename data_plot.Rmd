@@ -59,7 +59,7 @@ ggplot(data = data2, aes(
     legend.justification = "left"
   ) +
   xlab("") +
-  ggtitle("Male vs Female")
-ggsave('1.png')
+  ggtitle("Male vs Female Plot")
+ggsave('data_plot.png')
 
 ```
