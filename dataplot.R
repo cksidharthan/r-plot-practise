@@ -3,7 +3,7 @@ library(tidyr)
 
 library(viridis)
 
-data <- read.csv("Q1_planting1976-2019.csv",skip = 1)
+data <- read.csv("data.csv",skip = 1)
 data <- data %>% rename("Year" = "Year.to..31.March") %>% select("Year","Conifers","Broadleaves")
 data
 
